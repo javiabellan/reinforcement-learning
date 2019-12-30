@@ -1,7 +1,7 @@
 # Deep Reinforcement learning
 
 
-## Part 1: Q based
+## Part 1: Q Value based
 
 <table>
   <tr>
@@ -23,8 +23,18 @@
 
 
 
-## Part 2: Policy based
+## Part 2: Policy Gradient based
 
+| Name                                                  | Paper                                    |
+|-------------------------------------------------------|------------------------------------------|
+| REINFORCE (Baseline)                                  | [1992](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf) |
+| DDPG: Deep Deterministic Policy Gradients             | [2015](https://arxiv.org/abs/1509.02971) |
+| A2C: Advantage Actor Critic                           |                                          |
+| A3C: Asynchronous Advantage Actor Critic              | [2016](https://arxiv.org/abs/1602.01783) |
+| PPO: Proximal Policy Optimisation                     | [2017](https://arxiv.org/abs/1707.06347) |
+| TD3: Twin Delayed Deep Deterministic Policy Gradients | [2018](https://arxiv.org/abs/1802.09477) |
+| SAC: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
+| SAC-Discrete: Soft Actor-Critic for Discrete Actions  | [2019](https://arxiv.org/abs/1910.07207) |
 
 ## References
 
