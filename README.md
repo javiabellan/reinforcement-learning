@@ -3,7 +3,6 @@
 
 ## Part 1: Q based
 
-<img align="right" width="300" src="/img/rainbow.png">
 
 |                | Name                     | Paper                                    |
 |----------------|--------------------------|------------------------------------------|
@@ -16,6 +15,7 @@
 | Improvement 6  | **Distributional DQN**   | [2017](https://arxiv.org/abs/1707.06887) |
 | Combine 6 imp. | **Rainbow:**             | [2017](https://arxiv.org/abs/1710.02298) |
 
+<img align="right" width="300" src="/img/rainbow.png">
 
 
 ## Part 2: Policy based
