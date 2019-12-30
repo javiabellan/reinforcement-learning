@@ -3,20 +3,24 @@
 
 ## Part 1: Q based
 
-<img align="right" width="200" src="/img/rainbow.png">
+<table>
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Paper</th>
+    <th rowspan="9"><img align="right" width="200" src="/img/rainbow.png"></th>
+  </tr>
+  
+  <tr> <td>Baseline     </td>  <td>DQN: Deep Q Learning</td>  <td><a href="https://arxiv.org/abs/1312.5602">2013</a></td> </tr>
+  <tr> <td>Improvement 1</td>  <td>Double DQN  (DDQN)  </td>  <td><a href="https://arxiv.org/abs/1312.5602">2015</a></td> </tr>
+  <tr> <td>Improvement 2</td>  <td>Prioritized DQN     </td>  <td><a href="https://arxiv.org/abs/1312.5602">2015</a></td> </tr>
+  <tr> <td>Improvement 3</td>  <td>Dueling DQN         </td>  <td><a href="https://arxiv.org/abs/1312.5602">2015</a></td> </tr>
+  <tr> <td>Improvement 4</td>  <td>A3C                 </td>  <td><a href="https://arxiv.org/abs/1312.5602">2016</a></td> </tr>
+  <tr> <td>Improvement 5</td>  <td>Noisy DQN           </td>  <td><a href="https://arxiv.org/abs/1312.5602">2017</a></td> </tr>
+  <tr> <td>Improvement 6</td>  <td>Distributional DQN  </td>  <td><a href="https://arxiv.org/abs/1312.5602">2017</a></td> </tr>
+  <tr> <td>Combine 6 imp</td>  <td>Rainbow             </td>  <td><a href="https://arxiv.org/abs/1312.5602">2017</a></td> </tr>
+</table>
 
-|                | Name                     | Paper                                    |
-|----------------|--------------------------|------------------------------------------|
-| Baseline       | **DQN**: Deep Q Learning | [2013](https://arxiv.org/abs/1312.5602)  |
-| Improvement 1  | **Double DQN**  (DDQN)   | [2015](https://arxiv.org/abs/1509.06461) |
-| Improvement 3  | **Prioritized DQN**      | [2015](https://arxiv.org/abs/1511.05952) |
-| Improvement 2  | **Dueling DQN**          | [2015](https://arxiv.org/abs/1511.06581) |
-| Improvement 4  | **A3C**                  | [2016](https://arxiv.org/abs/1602.01783) |
-| Improvement 5  | **Noisy DQN**            | [2017](https://arxiv.org/abs/1706.10295) |
-| Improvement 6  | **Distributional DQN**   | [2017](https://arxiv.org/abs/1707.06887) |
-| Combine 6 imp. | **Rainbow:**             | [2017](https://arxiv.org/abs/1710.02298) |
-
-<img align="right" width="300" src="/img/rainbow.png">
 
 
 ## Part 2: Policy based
