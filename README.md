@@ -25,6 +25,21 @@
 
 ## Part 2: Policy Gradient based
 
+
+#### Actions
+- Discrete: (action probabilities)
+  - Only one: Sofmax
+  - Multiple: Sigmoid
+  - Action picking:
+    - Deterministic: The most probable always.
+    - Stochastic: Random according probabilities.
+- Continuous: (action values)
+  - `[0,1]`: Sigmoid (ej: acelerador)
+  - `[-1,1]`: Tanh (ej: volante)
+  - `[0, inf]`: ReLU
+  - `[-inf, inf]`: Nothing
+
+
 | Name                                                      | Paper                                    |
 |-----------------------------------------------------------|------------------------------------------|
 | **VPG**: Vanilla Policy Gradient (aka REINFORCE)          | [1992](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf) |
