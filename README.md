@@ -36,6 +36,14 @@
 | **SAC**: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
 | **SAC-Discrete**: Soft Actor-Critic for Discrete Actions  | [2019](https://arxiv.org/abs/1910.07207) |
 
+
+## Part 3: Multi agent RL
+
+
+## Extra: AlphaGo → AlphaGo Zero → AlphaZero → [MuZero](https://arxiv.org/abs/1911.08265)
+- [The Evolution of AlphaGo to MuZero](https://towardsdatascience.com/the-evolution-of-alphago-to-muzero-c2c37306bf9)
+
+
 ## References
 
 - [**Udacity RL repo**](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution)
