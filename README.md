@@ -25,6 +25,46 @@
 
 ## Part 2: Policy Gradient based
 
+| Name                                                      | Paper                                    |
+|-----------------------------------------------------------|------------------------------------------|
+| **VPG**: Vanilla Policy Gradient (aka REINFORCE)          | [1992](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf) |
+| **TRPO**: Trust Region Policy Optimization                | [2015](https://arxiv.org/abs/1502.05477) |
+| **DDPG**: Deep Deterministic Policy Gradients             | [2015](https://arxiv.org/abs/1509.02971) |
+| **A2C**: Advantage Actor Critic                           |                                          |
+| **A3C**: Asynchronous Advantage Actor Critic              | [2016](https://arxiv.org/abs/1602.01783) |
+| **PPO**: Proximal Policy Optimization                     | [2017](https://arxiv.org/abs/1707.06347) |
+| **TD3**: Twin Delayed Deep Deterministic Policy Gradients | [2018](https://arxiv.org/abs/1802.09477) |
+| **SAC**: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
+| **SAC-Discrete**: Soft Actor-Critic for Discrete Actions  | [2019](https://arxiv.org/abs/1910.07207) |
+
+### What are Policy Gradient Methods?
+- **Policy methods** search directly for the optimal policy, without simultaneously maintaining a value function.
+- **Policy gradient methods** are a subtype of policy methods that estimate the optimal policy through gradient ascent.
+
+#### Problem: Maximize the expected return `U(θ) = ∑ P(τ,θ) R(τ)`
+- **`τ`**: Is the **Trajectory**, a state-action sequence.
+- **`R(τ)`**: Is the **Reward** at each time step. (*How good was my action*)
+- **`P(τ,θ)`**: Is the **Probability** of picking that action at that time step. (*How confident i was*)
+> Is like the loss of deep learning, but insted of minimizing it, **you have to maximize it with gradient ascent**.
+
+### VPG: Vanilla Policy Gradient (aka REINFORCE)
+1. Use the policy π (network) to collect N trajectories τ (episodes)
+2. Use the trajectories to estimate the gradient of the expected return **U(θ)**
+3. Update the weights of the network (gradient ascent: θ = θ+α∇U(θ))
+4. Loop over steps 1-3.
+
+### PPO: Proximal Policy Optimization 
+
+
+
+
+
+## Part 3: Multi agent RL
+
+
+## Extra: AlphaGo → AlphaGo Zero → AlphaZero → [MuZero](https://arxiv.org/abs/1911.08265)
+- [The Evolution of AlphaGo to MuZero](https://towardsdatascience.com/the-evolution-of-alphago-to-muzero-c2c37306bf9)
+
 
 #### Actions
 - Discrete: (action probabilities)
@@ -38,27 +78,7 @@
   - `[-1,1]`: Tanh (ej: volante)
   - `[0, inf]`: ReLU
   - `[-inf, inf]`: Nothing
-
-
-| Name                                                      | Paper                                    |
-|-----------------------------------------------------------|------------------------------------------|
-| **VPG**: Vanilla Policy Gradient (aka REINFORCE)          | [1992](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf) |
-| **DDPG**: Deep Deterministic Policy Gradients             | [2015](https://arxiv.org/abs/1509.02971) |
-| **A2C**: Advantage Actor Critic                           |                                          |
-| **A3C**: Asynchronous Advantage Actor Critic              | [2016](https://arxiv.org/abs/1602.01783) |
-| **PPO**: Proximal Policy Optimisation                     | [2017](https://arxiv.org/abs/1707.06347) |
-| **TD3**: Twin Delayed Deep Deterministic Policy Gradients | [2018](https://arxiv.org/abs/1802.09477) |
-| **SAC**: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
-| **SAC-Discrete**: Soft Actor-Critic for Discrete Actions  | [2019](https://arxiv.org/abs/1910.07207) |
-
-
-## Part 3: Multi agent RL
-
-
-## Extra: AlphaGo → AlphaGo Zero → AlphaZero → [MuZero](https://arxiv.org/abs/1911.08265)
-- [The Evolution of AlphaGo to MuZero](https://towardsdatascience.com/the-evolution-of-alphago-to-muzero-c2c37306bf9)
-
-
+  
 ## References
 
 - [**Udacity RL repo**](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution)
