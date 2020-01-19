@@ -17,7 +17,7 @@
   <tr> <td>Improv. 3</td>  <td>Dueling DQN         </td>  <td><a href="https://arxiv.org/abs/1511.06581">2015</a></td> </tr>
   <tr> <td>Improv. 4</td>  <td>A3C                 </td>  <td><a href="https://arxiv.org/abs/1602.01783">2016</a></td> </tr>
   <tr> <td>Improv. 5</td>  <td>Noisy DQN           </td>  <td><a href="https://arxiv.org/abs/1706.10295">2017</a></td> </tr>
-  <tr> <td>Improv. 6</td>  <td>Distributional DQN  </td>  <td><a href="https://arxiv.org/abs/1707.06887">2017</a></td> </tr>
+  <tr> <td>Improv. 6</td><td>Distributional DQN (C51)</td><td><a href="https://arxiv.org/abs/1707.06887">2017</a></td> </tr>
   <tr> <td>Combine 6</td>  <td>Rainbow             </td>  <td><a href="https://arxiv.org/abs/1710.02298">2017</a></td> </tr>
 </table>
 
@@ -64,6 +64,9 @@
 
 ## Extra: AlphaGo → AlphaGo Zero → AlphaZero → [MuZero](https://arxiv.org/abs/1911.08265)
 - [The Evolution of AlphaGo to MuZero](https://towardsdatascience.com/the-evolution-of-alphago-to-muzero-c2c37306bf9)
+
+## Extra 2: [Dopamine](https://deepmind.com/blog/article/Dopamine-and-temporal-difference-learning-A-fruitful-relationship-between-neuroscience-and-AI)
+Afruitful relationship between neuroscience and AI
 
 
 #### Actions
