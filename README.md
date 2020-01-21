@@ -90,4 +90,4 @@ Afruitful relationship between neuroscience and AI
 - [**OpenAI Spinning Up**](https://spinningup.openai.com)
 - [**Pytorch tutorial DQN**](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 - [17 algos pytorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
-
+- [**autonomous-learning-library**](https://www.reddit.com/r/MachineLearning/comments/ergxuz/p_the_autonomous_learning_library_a_pytorch)
