@@ -1,7 +1,17 @@
 # Deep Reinforcement learning
 
+|                             | Q-Value Methods           | Policy Methods      |
+|-----------------------------|:-------------------------:|:-------------------:|
+| Network Input               | State + Actions           | State               |
+| Network Output              | Predict the final reward  | Predict the action  |
+| Large action space          | ❌                        | ✔️                 |
+| Continuous action space     | ❌                        | ✔️                 |
+| Stochastic policies         | ❌                        | ✔️                 |
+| Training loss function      | Temporal Difference Loss  | ?                   |
+| Training speed              | TD is faster 🙂           | Slower 🙁          |
+| Examples                    | Atari games               | ?                 |
 
-## Part 1: Q Value based
+## Part 1: Q-Value based
 
 <table>
   <tr>
@@ -23,7 +33,7 @@
 
 
 
-## Part 2: Policy Gradient based
+## Part 2: Policy based
 
 | Name                                                      | Paper                                    |
 |-----------------------------------------------------------|------------------------------------------|
@@ -36,6 +46,9 @@
 | **TD3**: Twin Delayed Deep Deterministic Policy Gradients | [2018](https://arxiv.org/abs/1802.09477) |
 | **SAC**: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
 | **SAC-Discrete**: Soft Actor-Critic for Discrete Actions  | [2019](https://arxiv.org/abs/1910.07207) |
+
+
+
 
 ### What are Policy Gradient Methods?
 - **Policy methods** search directly for the optimal policy, without simultaneously maintaining a value function.
