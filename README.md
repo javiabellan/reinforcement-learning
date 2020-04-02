@@ -2,16 +2,18 @@
 
 |                             | Q-Value Methods           | Policy Methods      |
 |-----------------------------|:-------------------------:|:-------------------:|
-| Network Input               | State + Actions           | State               |
-| Network Output              | Predict the final reward  | Predict the action  |
-| Large action space          | ❌                        | ✔️                 |
+| Network Input               | State                     | State               |
+| Network Output              | Predict each action combination reward  | Predict action values (probabilities & continuous) |
+| Large action space          | ❌ (because needs action pairs)   | ✔️ (don't needs action pairs) |
 | Continuous action space     | ❌                        | ✔️                 |
 | Stochastic policies         | ❌                        | ✔️                 |
 | Training loss function      | Temporal Difference Loss  | ?                   |
 | Training speed              | TD is faster 🙂           | Slower 🙁          |
 | Examples                    | Atari games               | ?                 |
 
-## Part 1: Q-Value based
+Source: [What is the relation between Q-learning and policy gradients methods?](https://ai.stackexchange.com/questions/6196/what-is-the-relation-between-q-learning-and-policy-gradients-methods)
+
+## Part 1: Q-Value Methods
 
 <table>
   <tr>
@@ -33,7 +35,7 @@
 
 
 
-## Part 2: Policy based
+## Part 2: Policy Methods
 
 | Name                                                      | Paper                                    |
 |-----------------------------------------------------------|------------------------------------------|
