@@ -3,7 +3,7 @@
 |                             | Q-Value Methods           | Policy Methods      |
 |-----------------------------|:-------------------------:|:-------------------:|
 | Network Input               | State                     | State               |
-| Network Output              | Predict each action combination reward  | Predict action values (probabilities & continuous) |
+| Network Output              | Predict action reward (all posibilites) | Predict action values (probabilities & continuous) |
 | Large action space          | ❌                        | ✔️                 |
 | Continuous action space     | ❌                        | ✔️                 |
 | Stochastic policies         | ❌                        | ✔️                 |
