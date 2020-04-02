@@ -4,12 +4,46 @@
 |-----------------------------|:-------------------------:|:-------------------:|
 | Network Input               | State                     | State               |
 | Network Output              | Predict each action combination reward  | Predict action values (probabilities & continuous) |
-| Large action space          | ❌ (because needs action pairs)   | ✔️ (don't needs action pairs) |
+| Large action space          | ❌                        | ✔️                 |
 | Continuous action space     | ❌                        | ✔️                 |
 | Stochastic policies         | ❌                        | ✔️                 |
 | Training loss function      | Temporal Difference Loss  | ?                   |
 | Training speed              | TD is faster 🙂           | Slower 🙁          |
-| Examples                    | Atari games               | ?                 |
+
+### Output neurons for Atari
+<table>
+  <tr>
+    <th>Q-Value Methods (18)</th>
+    <th>Policy Methods (3)</th>
+  </tr>
+  <tr>
+    <td><ol>
+      <li>Do nothing</li>
+      <li>⬆️</li>
+      <li>↗️</li>
+      <li>➡️</li>
+      <li>↘️</li>
+      <li>⬇️</li>
+      <li>↙️</li>
+      <li>⬅️</li>
+      <li>↖️</li>
+      <li>🔴</li>
+      <li>⬆️+🔴</li>
+      <li>↗️+🔴</li>
+      <li>➡️+🔴</li>
+      <li>↘️+🔴</li>
+      <li>⬇️+🔴</li>
+      <li>↙️+🔴</li>
+      <li>⬅️+🔴</li>
+      <li>↖️+🔴</li>
+    </td></ol>
+    <td><ol>
+      <li>🔴 Probability of pressing button (between 0 and 1)</li>
+      <li>↔️ Action space on the x axis (between -1 and 1)</li>
+      <li>↕️ Action space on the y axis (between -1 and 1)</li>
+    </td></ol>
+  </tr>
+</table>
 
 Source: [What is the relation between Q-learning and policy gradients methods?](https://ai.stackexchange.com/questions/6196/what-is-the-relation-between-q-learning-and-policy-gradients-methods)
 
