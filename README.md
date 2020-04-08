@@ -76,8 +76,8 @@ Source: [What is the relation between Q-learning and policy gradients methods?](
 | **VPG**: Vanilla Policy Gradient (aka REINFORCE)          | [1992](http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf) |
 | **TRPO**: Trust Region Policy Optimization                | [2015](https://arxiv.org/abs/1502.05477) |
 | **DDPG**: Deep Deterministic Policy Gradients             | [2015](https://arxiv.org/abs/1509.02971) |
-| **A2C**: Advantage Actor Critic                           |                                          |
-| **A3C**: Asynchronous Advantage Actor Critic              | [2016](https://arxiv.org/abs/1602.01783) |
+| **A2C**: Advantage Actor Critic  ⭐                        |                                          |
+| **A3C**: Asynchronous Advantage Actor Critic  ⭐           | [2016](https://arxiv.org/abs/1602.01783) |
 | **PPO**: Proximal Policy Optimization                     | [2017](https://arxiv.org/abs/1707.06347) |
 | **TD3**: Twin Delayed Deep Deterministic Policy Gradients | [2018](https://arxiv.org/abs/1802.09477) |
 | **SAC**: Soft Actor-Critic                                | [2018](https://arxiv.org/abs/1812.05905) |
