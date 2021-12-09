@@ -133,6 +133,7 @@ Afruitful relationship between neuroscience and AI
   
 ## References
 
+- [Reinforcement Learning Lecture Series 2021](https://deepmind.com/learning-resources/reinforcement-learning-series-2021)
 - [**Udacity RL repo**](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution)
 - [**RL-Adventure 1**](https://github.com/higgsfield/RL-Adventure)
 - [**RL-Adventure 2**](https://github.com/higgsfield/RL-Adventure-2)
